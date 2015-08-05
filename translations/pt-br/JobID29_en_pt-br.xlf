@@ -631,7 +631,7 @@ Entries in the <bpt id="tjiid434-158">&lt;a href="#"&gt;</bpt>Secure Messaging S
      <target xml:lang="pt-br">
 
 
-Sobre
+<bpt id="tjiid434-4">&lt;h2&gt;</bpt>Sobre<ept id="tjiid434-4">&lt;/h2&gt;</ept>
 
 Durante anos, especialistas de segurança e privacidade em todo o mundo pediram ao público em geral a adoção de criptografia forte, de código aberto para proteger as nossas comunicações. As revelações de Snowden confirmaram nossos piores medos: governos estão espionando nossa vida digital, recolhendo  todas as comunicações transmitidas às claras.
 
@@ -645,47 +645,47 @@ O Placar de Mensageiros Seguros examina dezenas de tecnologias de mensagens e av
 
 Nós escolhemos as tecnologias que têm uma base de usuários grandes -- e, assim, uma grande quantidade de comunicações confidenciais, além de pequenas empresas que são pioneiras nas práticas de segurança avançada. Esperamos que nosso placar servirá como uma corrida ao topo, estimulando a inovação em torno de criptografia forte para comunicações digitais.
 
+<ept id="tjiid434-3">&lt;/div&gt;</ept>
+<bpt id="tjiid434-7">&lt;a name="methodology"&gt;</bpt>
+<bpt id="tjiid434-9">&lt;div class="section"&gt;</bpt>
+
+<bpt id="tjiid434-10">&lt;h2&gt;</bpt>Metodologia<ept id="tjiid434-10">&lt;/h2&gt;</ept>
+
+<bpt id="tjiid434-12">&lt;p dir="ltr"&gt;</bpt>Aqui estão os critérios que nós seguimos na avaliação da segurança de várias ferramentas de comunicação.<ept id="tjiid434-12">&lt;/p&gt;</ept>
 
 
+<bpt id="tjiid434-14">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-15">&lt;a name="encrypted"&gt;</bpt><ept id="tjiid434-15">&lt;/a&gt;</ept><bpt id="tjiid434-17">&lt;strong&gt;</bpt>1. Sua comunicação é criptografada no trânsito?<ept id="tjiid434-17">&lt;/strong&gt;</ept>
+Este critério exige que todas as comunicações do usuário sejam criptografadas ao longo de todos os links no caminho de comunicação. Note que nós não exigimos criptografia de informação que circula apenas dentro da rede da companhia, apesar disto ser o ideal Nós não exigimos que os metadados (como nomes de usuários ou endereços) sejam criptografados.<ept id="tjiid434-14">&lt;/p&gt;</ept>
 
+<bpt id="tjiid434-20">&lt;a name="encrypted"&gt;</bpt><ept id="tjiid434-20">&lt;/a&gt;</ept>
 
-Metodologia
-
-Aqui estão os critérios que nós seguimos na avaliação da segurança de várias ferramentas de comunicação.
-
-
-1. Sua comunicação é criptografada no trânsito?
-Este critério exige que todas as comunicações do usuário sejam criptografadas ao longo de todos os links no caminho de comunicação. Note que nós não exigimos criptografia de informação que circula apenas dentro da rede da companhia, apesar disto ser o ideal Nós não exigimos que os metadados (como nomes de usuários ou endereços) sejam criptografados.
-
-
-
-2. Sua comunicação é criptografada com uma chave que o provedor não consegue acessar?
+<bpt id="tjiid434-22">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-23">&lt;a name="encrypted"&gt;</bpt><ept id="tjiid434-23">&lt;/a&gt;</ept><bpt id="tjiid434-25">&lt;a name="e2e"&gt;</bpt><ept id="tjiid434-25">&lt;/a&gt;</ept><bpt id="tjiid434-27">&lt;strong&gt;</bpt>2.<ept id="tjiid434-27">&lt;/strong&gt;</ept> Sua comunicação é criptografada com uma chave que o provedor não consegue acessar?
 Este critério exige que todas as comunicações do usuário sejam criptografadas ponto a ponto. Isto significa que as chaves necessárias para descriptografar as mensagens devem ser geradas e armazenadas nos pontos finais (ou seja, pelos usuários, e não por servidores). As chaves nunca devem deixar os pontos finais, exceto por ação explícita do usuário, como ao fazer backup de uma chave ou sincronizar chaves entre dois dispositivos. Não tem problema se as chaves públicas dos usuários forem trocadas usando um servidor centralizado.
 
+<bpt id="tjiid434-32">&lt;a name="e2e"&gt;</bpt><ept id="tjiid434-32">&lt;/a&gt;</ept>
 
-
-3. Você pode verificar a identidade do seu correspondente independentemente? Este critério exige que exista um método interno para que os usuários verifiquem a identidade de seus correspondentes e a integridade do canal, mesmo que o prestador de serviços ou outros terceiros estejam comprometidos. Duas soluções aceitáveis são:
-
-
+<bpt id="tjiid434-34">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-35">&lt;a name="e2e"&gt;</bpt><ept id="tjiid434-35">&lt;/a&gt;</ept><bpt id="tjiid434-37">&lt;a name="verify"&gt;</bpt><ept id="tjiid434-37">&lt;/a&gt;</ept><bpt id="tjiid434-39">&lt;strong&gt;</bpt>3.<ept id="tjiid434-39">&lt;/strong&gt;</ept> <bpt id="tjiid434-41">&lt;strong&gt;</bpt>Você pode verificar a identidade do seu correspondente independentemente? <ept id="tjiid434-41">&lt;/strong&gt;</ept><x id="tjiid434-43" ctype="lb"/>Este critério exige que exista um método interno para que os usuários verifiquem a identidade de seus correspondentes e a integridade do canal, mesmo que o prestador de serviços ou outros terceiros estejam comprometidos. Duas soluções aceitáveis são:<ept id="tjiid434-34">&lt;/p&gt;</ept>
 
 
 
-Uma interface para usuários visualizarem a fingerprint (impressão digital, ou hash) das chaves públicas do seu correspondente bem como as suas próprias, e os usuários devem poder verificá-las manualmente ou automaticamente.
+<bpt id="tjiid434-45">&lt;ul&gt;</bpt><bpt id="tjiid434-46">&lt;li dir="ltr"&gt;</bpt>
+
+<bpt id="tjiid434-47">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-48">&lt;a name="verify"&gt;</bpt><ept id="tjiid434-48">&lt;/a&gt;</ept>Uma interface para usuários visualizarem a fingerprint (impressão digital, ou hash) das chaves públicas do seu correspondente bem como as suas próprias, e os usuários devem poder verificá-las manualmente ou automaticamente.<ept id="tjiid434-47">&lt;/p&gt;</ept>
+
+<ept id="tjiid434-46">&lt;/li&gt;</ept>
+	<bpt id="tjiid434-52">&lt;li dir="ltr"&gt;</bpt>
+
+<bpt id="tjiid434-53">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-54">&lt;a name="verify"&gt;</bpt><ept id="tjiid434-54">&lt;/a&gt;</ept>Um protocolo de troca de chaves com comparação de “string de autenticação curta”, como o <bpt id="tjiid434-56">&lt;a href="http://en.wikipedia.org/wiki/Socialist_millionaire" style="line-height: 1.538em;"&gt;</bpt>protocolo do milionário socialista<ept id="tjiid434-56">&lt;/a&gt;</ept>.<ept id="tjiid434-53">&lt;/p&gt;</ept>
+
+<ept id="tjiid434-52">&lt;/li&gt;</ept>
+<ept id="tjiid434-45">&lt;/ul&gt;</ept><bpt id="tjiid434-61">&lt;p dir="ltr"&gt;</bpt>Outras soluções são possíveis, mas qualquer solução deve verificar uma ligação entre os usuários e o canal de criptografia que foi configurado. Para o placar, estamos simplesmente exigindo que um mecanismo esteja implementado e não avaliando a usabilidade e a segurança do mecanismo.<ept id="tjiid434-61">&lt;/p&gt;</ept>
 
 
-	
+<bpt id="tjiid434-63">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-64">&lt;a name="pfs"&gt;</bpt><ept id="tjiid434-64">&lt;/a&gt;</ept><bpt id="tjiid434-66">&lt;strong&gt;</bpt>4.<ept id="tjiid434-66">&lt;/strong&gt;</ept> <bpt id="tjiid434-68">&lt;strong&gt;</bpt>Comunicações passadas estarão seguras se suas chaves forem roubadas?<ept id="tjiid434-68">&lt;/strong&gt;</ept>
 
-Um protocolo de troca de chaves com comparação de “string de autenticação curta”, como o protocolo do milionário socialista.
+Este critério exige que o app forneça <bpt id="tjiid434-70">&lt;a href="https://www.eff.org/deeplinks/2013/08/pushing-perfect-forward-secrecy-important-web-privacy-protection"&gt;</bpt>sigilo futuro<ept id="tjiid434-70">&lt;/a&gt;</ept>, ou seja, todas as comunicações devem ser criptografadas com chaves efêmeras que são rotineiramente excluídas (juntamente com os valores aleatórios usados para gerá-las). É imperativo que essas chaves não possam ser reconstruídas, mesmo recebendo acesso às chaves privadas de longo prazo de ambos os lados, garantindo que se os usuários escolherem deletar a cópia local da correspondência, elas sejam permanentemente deletadas. Observe que este critério exige o critério 2, criptografia de ponto a ponto.<ept id="tjiid434-63">&lt;/p&gt;</ept>
 
-
-Outras soluções são possíveis, mas qualquer solução deve verificar uma ligação entre os usuários e o canal de criptografia que foi configurado. Para o placar, estamos simplesmente exigindo que um mecanismo esteja implementado e não avaliando a usabilidade e a segurança do mecanismo.
-
-
-4. Comunicações passadas estarão seguras se suas chaves forem roubadas?
-
-Este critério exige que o app forneça sigilo futuro, ou seja, todas as comunicações devem ser criptografadas com chaves efêmeras que são rotineiramente excluídas (juntamente com os valores aleatórios usados para gerá-las). É imperativo que essas chaves não possam ser reconstruídas, mesmo recebendo acesso às chaves privadas de longo prazo de ambos os lados, garantindo que se os usuários escolherem deletar a cópia local da correspondência, elas sejam permanentemente deletadas. Observe que este critério exige o critério 2, criptografia de ponto a ponto.
-
-Nota: Para esta fase da campanha, nós aceitamos uma abordagem híbrida de sigilo futuro com sigilo futuro na camada de transporte (por exemplo através de TLS com uma suite de cifra de Diffie-Hellman) e criptografia de ponto a ponto sem sigilo futuro, além de uma garantia explícita que as mensagens cifradas não são registradas pelo provedor. Trata-se de um compromisso como requer confiar o provedor não para registrar as mensagens cifradas, mas nós preferimos esta configuração para não ter nenhum segredo para a frente em tudo.
+<bpt id="tjiid434-73">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-74">&lt;em style="line-height: 20.0063037872314px;"&gt;</bpt>Nota: Para esta fase da campanha, nós aceitamos uma abordagem híbrida de sigilo futuro com sigilo futuro na camada de transporte (por exemplo através de TLS com uma suite de cifra de Diffie-Hellman) e criptografia de ponto a ponto sem sigilo futuro, além de uma garantia explícita que as mensagens cifradas não são registradas pelo provedor. Trata-se de um compromisso como requer confiar o provedor não para registrar as mensagens cifradas, mas nós preferimos esta configuração para não ter nenhum segredo para a frente em tudo.<ept id="tjiid434-74">&lt;/em&gt;</ept><ept id="tjiid434-73">&lt;/p&gt;</ept>
 
 
  
