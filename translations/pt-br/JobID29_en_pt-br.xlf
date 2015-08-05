@@ -628,8 +628,8 @@ Entries in the <bpt id="tjiid434-158">&lt;a href="#"&gt;</bpt>Secure Messaging S
 	<bpt id="tjiid434-277">&lt;li&gt;</bpt><bpt id="tjiid434-278">&lt;strong&gt;</bpt>2014-11-10<ept id="tjiid434-278">&lt;/strong&gt;</ept> : Skype check mark for end-to-end encryption <bpt id="tjiid434-280">&lt;a href="https://www.eff.org/deeplinks/2014/11/scorecard-update-we-cannot-credit-skype-end-end-encryption"&gt;</bpt>removed<ept id="tjiid434-280">&lt;/a&gt;</ept>. (✘)<ept id="tjiid434-277">&lt;/li&gt;</ept>
 	<bpt id="tjiid434-283">&lt;li&gt;</bpt><bpt id="tjiid434-284">&lt;strong&gt;</bpt>2014-11-04<ept id="tjiid434-284">&lt;/strong&gt;</ept> : Snapchat app has audits from an internal security team. (✓)<ept id="tjiid434-283">&lt;/li&gt;</ept>
 <ept id="tjiid434-258">&lt;/ul&gt;</ept><ept id="tjiid434-153">&lt;/div&gt;</ept></source>
-     <target xml:lang="pt-br">
-
+     <target xml:lang="pt-br"><bpt id="tjiid434-1">&lt;a name="about"&gt;</bpt><ept id="tjiid434-1">&lt;/a&gt;</ept>
+<bpt id="tjiid434-3">&lt;div class="section"&gt;</bpt>
 
 <bpt id="tjiid434-4">&lt;h2&gt;</bpt>Sobre<ept id="tjiid434-4">&lt;/h2&gt;</ept>
 
@@ -685,91 +685,91 @@ Este critério exige que todas as comunicações do usuário sejam criptografada
 
 Este critério exige que o app forneça <bpt id="tjiid434-70">&lt;a href="https://www.eff.org/deeplinks/2013/08/pushing-perfect-forward-secrecy-important-web-privacy-protection"&gt;</bpt>sigilo futuro<ept id="tjiid434-70">&lt;/a&gt;</ept>, ou seja, todas as comunicações devem ser criptografadas com chaves efêmeras que são rotineiramente excluídas (juntamente com os valores aleatórios usados para gerá-las). É imperativo que essas chaves não possam ser reconstruídas, mesmo recebendo acesso às chaves privadas de longo prazo de ambos os lados, garantindo que se os usuários escolherem deletar a cópia local da correspondência, elas sejam permanentemente deletadas. Observe que este critério exige o critério 2, criptografia de ponto a ponto.<ept id="tjiid434-63">&lt;/p&gt;</ept>
 
-<bpt id="tjiid434-73">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-74">&lt;em style="line-height: 20.0063037872314px;"&gt;</bpt>Nota: Para esta fase da campanha, nós aceitamos uma abordagem híbrida de sigilo futuro com sigilo futuro na camada de transporte (por exemplo através de TLS com uma suite de cifra de Diffie-Hellman) e criptografia de ponto a ponto sem sigilo futuro, além de uma garantia explícita que as mensagens cifradas não são registradas pelo provedor. Trata-se de um compromisso como requer confiar o provedor não para registrar as mensagens cifradas, mas nós preferimos esta configuração para não ter nenhum segredo para a frente em tudo.<ept id="tjiid434-74">&lt;/em&gt;</ept><ept id="tjiid434-73">&lt;/p&gt;</ept>
+<bpt id="tjiid434-73">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-74">&lt;em style="line-height: 20.0063037872314px;"&gt;</bpt>Nota: Para esta fase da campanha, nós aceitamos uma abordagem híbrida de sigilo futuro com sigilo futuro na camada de transporte (por exemplo através de TLS com uma suite de cifra de Diffie-Hellman) e criptografia de ponto a ponto sem sigilo futuro, além de uma garantia explícita que as mensagens cifradas não são registradas pelo provedor. Trata-se de um sacrifício, pois é necessário confiar que o provedor não vai registrar as mensagens cifradas, mas nós preferimos isto do que não ter absolutamente nenhum sigilo futuro.<ept id="tjiid434-74">&lt;/em&gt;</ept><ept id="tjiid434-73">&lt;/p&gt;</ept>
 
 
- 
+<bpt id="tjiid434-77">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-78">&lt;a name="open"&gt;</bpt><ept id="tjiid434-78">&lt;/a&gt;</ept><bpt id="tjiid434-80">&lt;strong&gt;</bpt>5.<ept id="tjiid434-80">&lt;/strong&gt;</ept> <bpt id="tjiid434-82">&lt;strong&gt;</bpt>O código é aberto para revisão independente?<ept id="tjiid434-82">&lt;/strong&gt;</ept>
 
-  
+Este critério exige que exista publicação de código-fonte suficiente para que uma implementação compatível possa ser compilada de forma independente. Embora seja preferível, não exigimos que o código seja lançado sob alguma licença específica livre/open source. Só exigimos que todo o código que possa afetar a comunicação e a criptografia realizada pelo cliente esteja disponível para revisão, a fim de detectar bugs, back doorss e problemas estruturais.<ept id="tjiid434-77">&lt;/p&gt;</ept>
 
- 
+<bpt id="tjiid434-85">&lt;a name="open"&gt;</bpt><ept id="tjiid434-85">&lt;/a&gt;</ept><bpt id="tjiid434-87">&lt;em&gt;</bpt>Nota: quando ferramentas são fornecidas por um fornecedor de sistema operacional, exigimos apenas código da ferramenta e não o sistema operacional inteiro. Isto é um sacrifício, mas a tarefa de avaliar Sistemas Operacionais e suas atualizações está além do escopo deste projeto.<ept id="tjiid434-87">&lt;/em&gt;</ept>
 
+<bpt id="tjiid434-89">&lt;a name="open"&gt;</bpt><ept id="tjiid434-89">&lt;/a&gt;</ept>
 
+<bpt id="tjiid434-91">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-92">&lt;a name="open"&gt;</bpt><ept id="tjiid434-92">&lt;/a&gt;</ept><bpt id="tjiid434-94">&lt;a name="documented"&gt;</bpt><ept id="tjiid434-94">&lt;/a&gt;</ept><bpt id="tjiid434-96">&lt;strong&gt;</bpt>6. A arquitetura da criptografia é bem documentada?<ept id="tjiid434-96">&lt;/strong&gt;</ept>
 
- 
-
-  
-
-
-
+Este critério exige explicações claras e detalhadas sobre a criptografia usada pela aplicação. Preferencialmente, a explicação deveria vir na forma de um relatório para ser revisado por um público de criptógrafos profissionais Isto deve responder às seguintes perguntas <ept id="tjiid434-91">&lt;/p&gt;</ept>
 
 
 
+<bpt id="tjiid434-99">&lt;ul&gt;</bpt><bpt id="tjiid434-100">&lt;li dir="ltr"&gt;</bpt>
+
+<bpt id="tjiid434-101">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-102">&lt;a name="documented"&gt;</bpt><ept id="tjiid434-102">&lt;/a&gt;</ept>Quais algoritmos e parâmetros (tais como o tamanho das chaves ou grupos de curva elíptica) são usados em cada passo do processo de criptografia e autenticação<ept id="tjiid434-101">&lt;/p&gt;</ept>
+
+<ept id="tjiid434-100">&lt;/li&gt;</ept>
+<ept id="tjiid434-99">&lt;/ul&gt;</ept><bpt id="tjiid434-107">&lt;ul&gt;</bpt><bpt id="tjiid434-108">&lt;li dir="ltr"&gt;</bpt>
+
+<bpt id="tjiid434-109">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-110">&lt;a name="documented"&gt;</bpt><ept id="tjiid434-110">&lt;/a&gt;</ept>Como as chaves são geradas, armazenadas e trocadas entre os usuários<ept id="tjiid434-109">&lt;/p&gt;</ept>
+
+<ept id="tjiid434-108">&lt;/li&gt;</ept>
+<ept id="tjiid434-107">&lt;/ul&gt;</ept><bpt id="tjiid434-115">&lt;ul&gt;</bpt><bpt id="tjiid434-116">&lt;li dir="ltr"&gt;</bpt>
+
+<bpt id="tjiid434-117">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-118">&lt;a name="documented"&gt;</bpt><ept id="tjiid434-118">&lt;/a&gt;</ept> O ciclo de vida das chaves e o processo para que os usuários alterem ou revoguem suas chaves<ept id="tjiid434-117">&lt;/p&gt;</ept>
+
+<ept id="tjiid434-116">&lt;/li&gt;</ept>
+	<bpt id="tjiid434-122">&lt;li dir="ltr"&gt;</bpt>
+
+<bpt id="tjiid434-123">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-124">&lt;a name="documented"&gt;</bpt><ept id="tjiid434-124">&lt;/a&gt;</ept>Uma declaração clara das propriedades e proteções que o software visa proporcionar (implicitamente, isto tende a fornecer também um modelo de ameaça, apesar de ser bom ter um modelo de ameaça explícita também). Isto também deve incluir uma declaração clara dos cenários em que o protocolo não é seguro. <ept id="tjiid434-123">&lt;/p&gt;</ept>
+
+<ept id="tjiid434-122">&lt;/li&gt;</ept>
+<ept id="tjiid434-115">&lt;/ul&gt;</ept><bpt id="tjiid434-129">&lt;a name="documented"&gt;</bpt><ept id="tjiid434-129">&lt;/a&gt;</ept>
+
+<bpt id="tjiid434-131">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-132">&lt;a name="documented"&gt;</bpt><ept id="tjiid434-132">&lt;/a&gt;</ept><bpt id="tjiid434-134">&lt;a name="audited"&gt;</bpt><ept id="tjiid434-134">&lt;/a&gt;</ept><bpt id="tjiid434-136">&lt;strong&gt;</bpt>7.<ept id="tjiid434-136">&lt;/strong&gt;</ept> <bpt id="tjiid434-138">&lt;strong&gt;</bpt>Houve alguma uma auditoria de segurança independente?<ept id="tjiid434-138">&lt;/strong&gt;</ept><ept id="tjiid434-131">&lt;/p&gt;</ept>
+
+<bpt id="tjiid434-141">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid434-142">&lt;a name="audited"&gt;</bpt><ept id="tjiid434-142">&lt;/a&gt;</ept>Este critério exige que uma revisão de segurança independente tenha sido realizada até 12 meses antes da avaliação. Esta revisão deve cobrir tanto o design quanto a implementação do app e deve ser executada por um time de auditoria que seja independente da equipe de desenvolvimento principal da ferramenta. Auditorias por uma equipe de segurança independente dentro de uma organização de grande porte são suficientes. Reconhecendo que auditorias não publicadas podem ser valiosas, não exigimos que os resultados da auditoria sejam públicos, só que um time nomeado esteja disposto a verificar que houve auditoria.<ept id="tjiid434-141">&lt;/p&gt;</ept>
+
+<bpt id="tjiid434-145">&lt;p dir="ltr"&gt;</bpt>Já discutimos este critério em profundidade no link: <bpt id="tjiid434-146">&lt;a href="https://www.eff.org/deeplinks/2014/11/what-makes-good-security-audit"&gt;</bpt>O que faz uma auditoria de segurança boa?<ept id="tjiid434-146">&lt;/a&gt;</ept><x id="tjiid434-148" ctype="lb"/> <ept id="tjiid434-145">&lt;/p&gt;</ept>
 
 
+<ept id="tjiid434-9">&lt;/div&gt;</ept>
+<bpt id="tjiid434-151">&lt;a name="about"&gt;</bpt><ept id="tjiid434-151">&lt;/a&gt;</ept>
+<bpt id="tjiid434-153">&lt;div class="section"&gt;</bpt><bpt id="tjiid434-154">&lt;a name="changelog"&gt;</bpt><ept id="tjiid434-154">&lt;/a&gt;</ept>
 
+<bpt id="tjiid434-156">&lt;h2&gt;</bpt>Changelog<ept id="tjiid434-156">&lt;/h2&gt;</ept>
 
+Entradas no <bpt id="tjiid434-158">&lt;a href="#"&gt;</bpt>Placar de Mensageiros Seguros<ept id="tjiid434-158">&lt;/a&gt;</ept> foram verificadas com as empresas e projetos listados quando o placar foi lançado em 2014-11-06. Atualizações serão feitas se o listados ou outros nos informarem sobre alterações ou imprecisões. Um log de todas essas alterações está abaixo:
 
+<bpt id="tjiid434-160">&lt;ul style="font-size: 13.0080003738403px; line-height: 20.0063037872314px;"&gt;</bpt><bpt id="tjiid434-161">&lt;li&gt;</bpt><bpt id="tjiid434-162">&lt;strong style="line-height: 20.0063037872314px;"&gt;</bpt>2015-06-12<ept id="tjiid434-162">&lt;/strong&gt;</ept><bpt id="tjiid434-164">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>:<ept id="tjiid434-164">&lt;/span&gt;</ept>
 
+<bpt id="tjiid434-166">&lt;ul&gt;</bpt><bpt id="tjiid434-167">&lt;li&gt;</bpt>Nós removemos Secret porque o serviço foi <bpt id="tjiid434-168">&lt;a href="https://medium.com/secret-den/sunset-bc18450478d5" title="Secret sunset"&gt;</bpt>descontinuado<ept id="tjiid434-168">&lt;/a&gt;</ept>  em Maio de 2015
+<ept id="tjiid434-166">&lt;/ul&gt;</ept><ept id="tjiid434-161">&lt;/li&gt;</ept>
+	<bpt id="tjiid434-173">&lt;li&gt;</bpt><bpt id="tjiid434-174">&lt;strong style="line-height: 20.0063037872314px;"&gt;</bpt>2015-03-06:<ept id="tjiid434-174">&lt;/strong&gt;</ept><bpt id="tjiid434-176">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>:<ept id="tjiid434-176">&lt;/span&gt;</ept>
 
+<bpt id="tjiid434-178">&lt;ul&gt;</bpt><bpt id="tjiid434-179">&lt;li&gt;</bpt>Nós creditamos QQ pela realização de uma auditoria de segurança interna independente (<bpt id="tjiid434-180">&lt;span style="color: #008000;"&gt;</bpt>✓<ept id="tjiid434-180">&lt;/span&gt;</ept>)<bpt id="tjiid434-182">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>.<ept id="tjiid434-182">&lt;/span&gt;</ept><ept id="tjiid434-179">&lt;/li&gt;</ept>
+<ept id="tjiid434-178">&lt;/ul&gt;</ept><ept id="tjiid434-173">&lt;/li&gt;</ept>
+	<bpt id="tjiid434-187">&lt;li&gt;</bpt><bpt id="tjiid434-188">&lt;strong style="line-height: 20.0063037872314px;"&gt;</bpt>2015-02-17<ept id="tjiid434-188">&lt;/strong&gt;</ept><bpt id="tjiid434-190">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>:<ept id="tjiid434-190">&lt;/span&gt;</ept>
 
+<bpt id="tjiid434-192">&lt;ul&gt;</bpt><bpt id="tjiid434-193">&lt;li&gt;</bpt>Nós creditamos Telegram (tanto no modo secreto quanto no regular) por passar por uma auditoria de código em fevereiro de 2015 <bpt id="tjiid434-194">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>(<ept id="tjiid434-194">&lt;/span&gt;</ept><bpt id="tjiid434-196">&lt;span style="line-height: 20.0063037872314px; color: #008000;"&gt;</bpt>✓<ept id="tjiid434-196">&lt;/span&gt;</ept><bpt id="tjiid434-198">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>).<ept id="tjiid434-198">&lt;/span&gt;</ept><ept id="tjiid434-193">&lt;/li&gt;</ept>
+<ept id="tjiid434-192">&lt;/ul&gt;</ept><ept id="tjiid434-187">&lt;/li&gt;</ept>
+	<bpt id="tjiid434-203">&lt;li&gt;</bpt><bpt id="tjiid434-204">&lt;strong style="line-height: 20.0063037872314px;"&gt;</bpt>2015-01-29<ept id="tjiid434-204">&lt;/strong&gt;</ept><bpt id="tjiid434-206">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>:<ept id="tjiid434-206">&lt;/span&gt;</ept>
 
+<bpt id="tjiid434-208">&lt;ul&gt;</bpt><bpt id="tjiid434-209">&lt;li&gt;</bpt><bpt id="tjiid434-210">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>Creditamos QQ por cifrar as mensagens em trânsito <ept id="tjiid434-210">&lt;/span&gt;</ept><bpt id="tjiid434-212">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>(<ept id="tjiid434-212">&lt;/span&gt;</ept><bpt id="tjiid434-214">&lt;span style="color: #008000;"&gt;</bpt>✓<ept id="tjiid434-214">&lt;/span&gt;</ept><bpt id="tjiid434-216">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>). Apesar de QQ não usar TLS/SSL, que é considerada a melhor prática, eles implementaram um protocolo personalizado para criptografia de mensagens em trânsito.<ept id="tjiid434-216">&lt;/span&gt;</ept><ept id="tjiid434-209">&lt;/li&gt;</ept>
+	<bpt id="tjiid434-219">&lt;li&gt;</bpt><bpt id="tjiid434-220">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>Nós esclarecemos nosso placar quanto ao sigilo futuro (critério #4).<ept id="tjiid434-220">&lt;/span&gt;</ept><ept id="tjiid434-219">&lt;/li&gt;</ept>
+<ept id="tjiid434-208">&lt;/ul&gt;</ept><ept id="tjiid434-203">&lt;/li&gt;</ept>
+	<bpt id="tjiid434-225">&lt;li&gt;</bpt><bpt id="tjiid434-226">&lt;strong style="line-height: 1.538em;"&gt;</bpt>2015-01-05<ept id="tjiid434-226">&lt;/strong&gt;</ept><bpt id="tjiid434-228">&lt;span style="line-height: 1.538em;"&gt;</bpt>:<ept id="tjiid434-228">&lt;/span&gt;</ept>
 
+<bpt id="tjiid434-230">&lt;ul&gt;</bpt><bpt id="tjiid434-231">&lt;li&gt;</bpt><bpt id="tjiid434-232">&lt;span style="line-height: 1.538em;"&gt;</bpt>Dividimos o placar do Telegram em duas linhas: Telegram básico e Telegram com conversas secretas. As conversas com Telegram básico não são criptografadas de ponto-a-ponto para que o provedor não possa lê-las(<ept id="tjiid434-232">&lt;/span&gt;</ept><bpt id="tjiid434-234">&lt;span style="color: #ff0000;" data-mce-mark="1"&gt;</bpt>✘<ept id="tjiid434-234">&lt;/span&gt;</ept><bpt id="tjiid434-236">&lt;span style="line-height: 1.538em;"&gt;</bpt>). As conversas com o Telegram secret chats são, e além disso o Telegram agora tem <ept id="tjiid434-236">&lt;/span&gt;</ept><bpt id="tjiid434-238">&lt;a href="https://core.telegram.org/api/pfs" title="Telegram perfect forward secrecy blog post" style="line-height: 1.538em;"&gt;</bpt>suporte para sigilo futuro perfeito<ept id="tjiid434-238">&lt;/a&gt;</ept><bpt id="tjiid434-240">&lt;span style="line-height: 1.538em;"&gt;</bpt> para que as mensagens possam ser excluídas com segurança (<ept id="tjiid434-240">&lt;/span&gt;</ept><bpt id="tjiid434-242">&lt;span style="color: #008000;" data-mce-mark="1"&gt;</bpt>✓<ept id="tjiid434-242">&lt;/span&gt;</ept><bpt id="tjiid434-244">&lt;span style="line-height: 1.538em;"&gt;</bpt>)<ept id="tjiid434-244">&lt;/span&gt;</ept><ept id="tjiid434-231">&lt;/li&gt;</ept>
+	<bpt id="tjiid434-247">&lt;li&gt;</bpt><bpt id="tjiid434-248">&lt;span style="line-height: 1.538em;"&gt;</bpt>Wickr agora fornece a capacidade de verificar a identidade do contato mostrando a impressão digital (fingerprint) da chave, que pode ser verificada out-of-band ou através de vídeo. (<ept id="tjiid434-248">&lt;/span&gt;</ept><bpt id="tjiid434-250">&lt;span style="line-height: 1.538em;"&gt;</bpt>✓<ept id="tjiid434-250">&lt;/span&gt;</ept><bpt id="tjiid434-252">&lt;span style="line-height: 1.538em;"&gt;</bpt>)<ept id="tjiid434-252">&lt;/span&gt;</ept><ept id="tjiid434-247">&lt;/li&gt;</ept>
+<ept id="tjiid434-230">&lt;/ul&gt;</ept><ept id="tjiid434-225">&lt;/li&gt;</ept>
+<ept id="tjiid434-160">&lt;/ul&gt;</ept><bpt id="tjiid434-258">&lt;ul&gt;</bpt><bpt id="tjiid434-259">&lt;li&gt;</bpt><bpt id="tjiid434-260">&lt;strong&gt;</bpt>2014-11-14<ept id="tjiid434-260">&lt;/strong&gt;</ept>:
 
-
-	
-
-  
-
-
-
-
- 
-
-   
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-	
-
-
-
-	
-
-
-
-	
-
- 
-	
-
-	
-
-  
-	
-
-
-
-
-	
-	  
-
-	 
-	 
-</target>
+<bpt id="tjiid434-262">&lt;ul&gt;</bpt><bpt id="tjiid434-263">&lt;li&gt;</bpt>RIM nos contou que BlackBerry Messenger Protected usa uma <bpt id="tjiid434-264">&lt;a href="http://docs.blackberry.com/en/admin/deliverables/64972/BBM_Protected-Security_Note_en.pdf"&gt;</bpt>troca de senha externa <ept id="tjiid434-264">&lt;/a&gt;</ept>e <bpt id="tjiid434-266">&lt;a href="https://en.wikipedia.org/wiki/SPEKE_(cryptography)"&gt;</bpt>EC-SPEKE<ept id="tjiid434-266">&lt;/a&gt;</ept> para executar a verificação de identidade. (✓) RIM também nos disse que BBM Protected recebe revisões de segurança por uma equipe de segurança interna. (✓)<ept id="tjiid434-263">&lt;/li&gt;</ept>
+	<bpt id="tjiid434-269">&lt;li&gt;</bpt>Viber recebeu recentemente uma auditoria de segurança externa da EY Advanced Security Center. (✓)<ept id="tjiid434-269">&lt;/li&gt;</ept>
+	<bpt id="tjiid434-271">&lt;li&gt;</bpt>Pidgin documentou um número de processos de auditoria incluindo o uso regular de ferramentas de análise estática e auditorias por uma equipe da Cisco Talos. Os desenvolvedores do Pidgin foram claros que eles não sabem o quão completa estas auditorias foram, no entanto, as auditorias <bpt id="tjiid434-272">&lt;a href="https://www.eff.org/deeplinks/2014/11/what-makes-good-security-audit"&gt;</bpt>satisfazem nossos critérios<ept id="tjiid434-272">&lt;/a&gt;</ept>. (✓) Apesar da auditoria do Pidgin melhorar a segurança do projeto relacionado Adium (os projetos compartilham muitos componentes incluindo libpurple, libotr e libxml2), os desenvolvedores do Adium dizem-nos que, além de uma ocasional análise estática pelos próprios desenvolvedores eles não estão cientes de qualquer esforço de auditoria independente que aborda o código específico do Adium. Então por enquanto esse projeto não receberá o visto de auditoria.<ept id="tjiid434-271">&lt;/li&gt;</ept>
+<ept id="tjiid434-262">&lt;/ul&gt;</ept><ept id="tjiid434-259">&lt;/li&gt;</ept>
+	<bpt id="tjiid434-277">&lt;li&gt;</bpt><bpt id="tjiid434-278">&lt;strong&gt;</bpt>2014-11-10<ept id="tjiid434-278">&lt;/strong&gt;</ept>: <bpt id="tjiid434-280">&lt;a href="https://www.eff.org/deeplinks/2014/11/scorecard-update-we-cannot-credit-skype-end-end-encryption"&gt;</bpt>Removido<ept id="tjiid434-280">&lt;/a&gt;</ept> o visto do Skype para criptografia de ponto-a-ponto. (✘)<ept id="tjiid434-277">&lt;/li&gt;</ept>
+	<bpt id="tjiid434-283">&lt;li&gt;</bpt><bpt id="tjiid434-284">&lt;strong&gt;</bpt>2014-11-04<ept id="tjiid434-284">&lt;/strong&gt;</ept>: Snapchat tem auditorias de uma equipe de segurança interna. (✓)<ept id="tjiid434-283">&lt;/li&gt;</ept>
+<ept id="tjiid434-258">&lt;/ul&gt;</ept><ept id="tjiid434-153">&lt;/div&gt;</ept></target>
      <note>Body</note>
     </trans-unit>
     <trans-unit id="434][body][0][summary" resname="434][body][0][summary">
@@ -782,20 +782,20 @@ In the face of widespread Internet surveillance, we need a secure and practical 
 This scorecard represents only the first phase of the campaign. In later phases, we are planning to offer closer examinations of the usability and security of the tools that score the highest here. As such, <bpt id="tjiid434-4">&lt;span style="text-decoration: underline;"&gt;</bpt>the results in the scorecard below should not be read as endorsements of individual tools or guarantees of their security<ept id="tjiid434-4">&lt;/span&gt;</ept>; they are merely indications that the projects are on the right track. For practical advice and tutorials on how to protect your online communication against surveillance, check out EFF's <bpt id="tjiid434-6">&lt;a href="https://ssd.eff.org/"&gt;</bpt>Surveillance Self-Defense<ept id="tjiid434-6">&lt;/a&gt;</ept> guide.
 
 <ept id="tjiid434-3">&lt;/div&gt;</ept></source>
-     <target xml:lang="pt-br">
+     <target xml:lang="pt-br"><bpt id="tjiid434-1">&lt;h3&gt;</bpt>Quais aplicativos e ferramentas realmente protegem suas mensagens?<ept id="tjiid434-1">&lt;/h3&gt;</ept>
 
+<bpt id="tjiid434-3">&lt;div class="section"&gt;</bpt>
 
+Face à vigilância generalizada da Internet, precisamos de um meio seguro e prático de falar um com o outro usando nossos telefones e computadores. Muitas empresas oferecem produtos de "mensagens seguras" — mas esses sistemas são realmente seguros? Nós decidimos descobrir, na primeira fase de uma nova campanha da EFF pela Criptografia Segura &amp;amp; Utilizável.
 
-  
+Este placar representa apenas a primeira fase da campanha. Em fases posteriores, planejamos examinar mais a fundo a usabilidade e segurança das ferramentas que marcarem a maior pontuação aqui. Como tal, <bpt id="tjiid434-4">&lt;span style="text-decoration: underline;"&gt;</bpt>os resultados no placar abaixo não devem ser lidos como endosso de ferramentas individuais ou garantias da sua segurança<ept id="tjiid434-4">&lt;/span&gt;</ept>; Eles são apenas indicações de que os projetos estão no caminho certo. Para conselhos práticos e tutoriais sobre como proteger sua comunicação on-line contra vigilância, confira o guia de <bpt id="tjiid434-6">&lt;a href="https://ssd.eff.org/"&gt;</bpt>Auto Defesa Contra Vigilância<ept id="tjiid434-6">&lt;/a&gt;</ept>.
 
-   
-
-</target>
+<ept id="tjiid434-3">&lt;/div&gt;</ept></target>
      <note>Summary</note>
     </trans-unit>
     <trans-unit id="434][title_field][0][value" resname="434][title_field][0][value">
      <source xml:lang="en">Secure Messaging Scorecard</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Placar de Segurança de Mensageiros</target>
      <note>Title</note>
     </trans-unit>
    </group>
@@ -803,7 +803,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>HTTPS Everywhere (menu:item:1953)</note>
     <trans-unit id="435][menu:item:1953:title" resname="435][menu:item:1953:title">
      <source xml:lang="en">HTTPS Everywhere</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">HTTPS Everywhere</target>
      <note>Title</note>
     </trans-unit>
    </group>
@@ -811,7 +811,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Creating HTTPS Everywhere Rulesets (menu:item:1956)</note>
     <trans-unit id="436][menu:item:1956:title" resname="436][menu:item:1956:title">
      <source xml:lang="en">Creating HTTPS Everywhere Rulesets</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Criando conjuntos de regras para o HTTPS Everywhere</target>
      <note>Title</note>
     </trans-unit>
    </group>
@@ -819,7 +819,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>HTTPS Everywhere Atlas (menu:item:7475)</note>
     <trans-unit id="437][menu:item:7475:title" resname="437][menu:item:7475:title">
      <source xml:lang="en">HTTPS Everywhere Atlas</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Mapa do HTTPS Everywhere</target>
      <note>Title</note>
     </trans-unit>
    </group>
@@ -827,7 +827,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>How to Deploy HTTPS Correctly (menu:item:1955)</note>
     <trans-unit id="438][menu:item:1955:title" resname="438][menu:item:1955:title">
      <source xml:lang="en">How to Deploy HTTPS Correctly</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Como implantar o HTTPS Everywhere corretamente</target>
      <note>Title</note>
     </trans-unit>
    </group>
@@ -835,7 +835,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Report Bugs / Hack On The Code (menu:item:1957)</note>
     <trans-unit id="439][menu:item:1957:title" resname="439][menu:item:1957:title">
      <source xml:lang="en">Report Bugs / Hack On The Code</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Reportar bugs / Hack no código</target>
      <note>Title</note>
     </trans-unit>
    </group>
@@ -843,7 +843,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>FAQ (menu:item:1954)</note>
     <trans-unit id="440][menu:item:1954:title" resname="440][menu:item:1954:title">
      <source xml:lang="en">FAQ</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">FAQ (Perguntas Frequentes)</target>
      <note>Title</note>
     </trans-unit>
    </group>
@@ -851,7 +851,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>HTTPS Everywhere is a Firef...</note>
     <trans-unit id="441][singular" resname="441][singular">
      <source xml:lang="en">HTTPS Everywhere is a Firefox, Chrome, and Opera extension that encrypts your communications with many major websites, making your browsing more secure.</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">HTTPS Everywhere é uma extensão do Firefox, Chrome e Opera que criptografa suas comunicações em muitos sites grandes, tornando sua navegação mais segura.</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -859,7 +859,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Encrypt the web: Install HT...</note>
     <trans-unit id="442][singular" resname="442][singular">
      <source xml:lang="en">Encrypt the web: Install HTTPS Everywhere today.</source>
-     <target xml:lang="pt-br"> </target>
+     <target xml:lang="pt-br">Criptografe a web: Instale o HTTPS Everywhere hoje.</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -867,7 +867,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Install in Firefox</note>
     <trans-unit id="443][singular" resname="443][singular">
      <source xml:lang="en">Install in Firefox</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Instalar no Firefox</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -875,7 +875,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Install in Firefox for Android</note>
     <trans-unit id="444][singular" resname="444][singular">
      <source xml:lang="en">Install in Firefox for Android</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Instalar no Firefox para Android</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -883,7 +883,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Install in Chrome</note>
     <trans-unit id="445][singular" resname="445][singular">
      <source xml:lang="en">Install in Chrome</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Instalar no Chrome</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -891,7 +891,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Install in Opera</note>
     <trans-unit id="446][singular" resname="446][singular">
      <source xml:lang="en">Install in Opera</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Instalar no Opera</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -899,7 +899,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Recent Releases</note>
     <trans-unit id="447][singular" resname="447][singular">
      <source xml:lang="en">Recent Releases</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Lançamentos recentes</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -907,7 +907,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Stable releases for Firefox:</note>
     <trans-unit id="448][singular" resname="448][singular">
      <source xml:lang="en">Stable releases for Firefox:</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Lançamentos estáveis para o Firefox:</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -915,7 +915,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Stable releases for Chrome,...</note>
     <trans-unit id="449][singular" resname="449][singular">
      <source xml:lang="en">Stable releases for Chrome, Chromium, and Opera 15+:</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Lançamentos estáveis para Chrome, Chromium e Opera 15 +:</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -923,7 +923,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Changelog.txt</note>
     <trans-unit id="450][singular" resname="450][singular">
      <source xml:lang="en">Changelog.txt</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Changelog.txt</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -931,7 +931,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Note: If you install the st...</note>
     <trans-unit id="451][singular" resname="451][singular">
      <source xml:lang="en">Note: If you install the standalone .crx (i.e. not from the Chrome Web Store), and you are using Windows, Chrome will automatically disable the extension on each restart. You may be able to work around by using developer mode. See <bpt id="tjiid451-1">&lt;a href="https://github.com/EFForg/https-everywhere/issues/819"&gt;</bpt>this issue<ept id="tjiid451-1">&lt;/a&gt;</ept>.</source>
-     <target xml:lang="pt-br">   </target>
+     <target xml:lang="pt-br">Nota: Se você instalar o .crx standalone (ou seja, de fora da Chrome Web Store), e você estiver usando Windows, Chrome desativará automaticamente a extensão em cada reinicialização. Você pode ser capaz de contornar isto usando o modo de desenvolvedor. Veja este <bpt id="tjiid451-1">&lt;a href="https://github.com/EFForg/https-everywhere/issues/819"&gt;</bpt>problema<ept id="tjiid451-1">&lt;/a&gt;</ept>.</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -939,7 +939,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Featured Tools</note>
     <trans-unit id="452][singular" resname="452][singular">
      <source xml:lang="en">Featured Tools</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Ferramentas em Destaque</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -947,7 +947,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>All Tools</note>
     <trans-unit id="453][singular" resname="453][singular">
      <source xml:lang="en">All Tools</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Todas as ferramentas</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -955,7 +955,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Yes</note>
     <trans-unit id="454][singular" resname="454][singular">
      <source xml:lang="en">Yes</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Sim</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -963,7 +963,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>No</note>
     <trans-unit id="455][singular" resname="455][singular">
      <source xml:lang="en">No</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Não</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -971,7 +971,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Encrypted in transit?</note>
     <trans-unit id="456][singular" resname="456][singular">
      <source xml:lang="en">Encrypted in transit?</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Criptografado em trânsito?</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -979,7 +979,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Encrypted so the provider c...</note>
     <trans-unit id="457][singular" resname="457][singular">
      <source xml:lang="en">Encrypted so the provider can’t read it?</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Criptografados de modo que o provedor não pode lê-la?</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -987,7 +987,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Can you verify contacts’ id...</note>
     <trans-unit id="458][singular" resname="458][singular">
      <source xml:lang="en">Can you verify contacts’ identities?</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Você pode verificar a identidade dos contatos?</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -995,7 +995,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Are past comms secure if yo...</note>
     <trans-unit id="459][singular" resname="459][singular">
      <source xml:lang="en">Are past comms secure if your keys are stolen?</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">As comunicações passadas estão seguras se as chaves forem roubadas?</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -1003,7 +1003,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Is the code open to indepen...</note>
     <trans-unit id="460][singular" resname="460][singular">
      <source xml:lang="en">Is the code open to independent review?</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">O código é aberto para revisão independente?</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -1011,7 +1011,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Is security design properly...</note>
     <trans-unit id="461][singular" resname="461][singular">
      <source xml:lang="en">Is security design properly documented?</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">A arquitetura de segurança está devidamente documentada?</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -1019,7 +1019,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
     <note>Has there been any recent c...</note>
     <trans-unit id="462][singular" resname="462][singular">
      <source xml:lang="en">Has there been any recent code audit?</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Houve alguma auditoria de código recente?</target>
      <note>Singular</note>
     </trans-unit>
    </group>
