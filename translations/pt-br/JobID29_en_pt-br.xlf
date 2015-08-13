@@ -54,54 +54,54 @@ git format-patch<ept id="tjiid429-107">&lt;/pre&gt;</ept>
 <bpt id="tjiid429-181">&lt;p&gt;</bpt><bpt id="tjiid429-182">&lt;code&gt;</bpt>  git push github my-new-rules:my-new-rules<ept id="tjiid429-182">&lt;/code&gt;</ept><ept id="tjiid429-181">&lt;/p&gt;</ept>
 <bpt id="tjiid429-185">&lt;p&gt;</bpt>Periodically, you should re-fetch the master repository:<ept id="tjiid429-185">&lt;/p&gt;</ept>
 <bpt id="tjiid429-187">&lt;p&gt;</bpt><bpt id="tjiid429-188">&lt;code&gt;</bpt>  git pull master<ept id="tjiid429-188">&lt;/code&gt;</ept><ept id="tjiid429-187">&lt;/p&gt;</ept></source>
-     <target xml:lang="pt-br">
-          
+     <target xml:lang="pt-br"><bpt id="tjiid429-1">&lt;h3&gt;</bpt>Indicações para desenvolvedores<ept id="tjiid429-1">&lt;/h3&gt;</ept>
+<bpt id="tjiid429-3">&lt;ul&gt;</bpt><bpt id="tjiid429-4">&lt;li&gt;</bpt><bpt id="tjiid429-5">&lt;b&gt;</bpt>Licença<ept id="tjiid429-5">&lt;/b&gt;</ept> GPL versão 3+ (embora a maioria do código seja compatível com GPL-2)<ept id="tjiid429-4">&lt;/li&gt;</ept><bpt id="tjiid429-8">&lt;li&gt;</bpt><bpt id="tjiid429-9">&lt;b&gt;</bpt> código fonte:<ept id="tjiid429-9">&lt;/b&gt;</ept> Disponível via Git com<bpt id="tjiid429-11">&lt;i&gt;</bpt> git clone https://github.com/EFForg/https-everywhere.git<ept id="tjiid429-11">&lt;/i&gt;</ept>. Você pode forkar e abrir pull requests usando Github em<bpt id="tjiid429-13">&lt;a href="https://github.com/EFForg/https-everywhere"&gt;</bpt> https://github.com/EFForg/https-everywhere<ept id="tjiid429-13">&lt;/a&gt;</ept>.<ept id="tjiid429-8">&lt;/li&gt;</ept><bpt id="tjiid429-16">&lt;li&gt;</bpt><bpt id="tjiid429-17">&lt;b&gt;</bpt>Traduções:<ept id="tjiid429-17">&lt;/b&gt;</ept> Se você gostaria de ajudar a traduzir HTTPS Everywhere para outro idioma, você pode fazer isso <bpt id="tjiid429-19">&lt;a href="https://www.transifex.com/signup/?join_project=torproject"&gt;</bpt>através do Transifex<ept id="tjiid429-19">&lt;/a&gt;</ept>. <ept id="tjiid429-16">&lt;/li&gt;</ept><bpt id="tjiid429-22">&lt;li&gt;</bpt><bpt id="tjiid429-23">&lt;b&gt;</bpt>Bug tracker:<ept id="tjiid429-23">&lt;/b&gt;</ept> Utilize o <bpt id="tjiid429-25">&lt;a href="https://github.com/EFForg/https-everywhere/issues/"&gt;</bpt>GitHub issue tracker<ept id="tjiid429-25">&lt;/a&gt;</ept> ou o <bpt id="tjiid429-27">&lt;a href="https://trac.torproject.org/projects/tor/report/19"&gt;</bpt>Tor Project issue tracker<ept id="tjiid429-27">&lt;/a&gt;</ept>. Para o Tor Project issue tracker, você pode fazer uma conta ou usar a anônima — "cypherpunks" / "writecode". Você não verá respostas a menos que você coloque um endereço de e-mail no campo CC. Bugs que são causados por um conjunto de regras devem ser etiquetados "httpse-ruleset-bug" e podem ser vistos <bpt id="tjiid429-29">&lt;a href="https://trac.torproject.org/projects/tor/report/48"&gt;</bpt> neste relatório<ept id="tjiid429-29">&lt;/a&gt;</ept>.<ept id="tjiid429-22">&lt;/li&gt;</ept><bpt id="tjiid429-32">&lt;li&gt;</bpt><bpt id="tjiid429-33">&lt;b&gt;</bpt> Listas de discussão:<ept id="tjiid429-33">&lt;/b&gt;</ept> A lista <bpt id="tjiid429-35">&lt;a href="https://lists.eff.org/mailman/listinfo/https-everywhere"&gt;</bpt>https-everywhere<ept id="tjiid429-35">&lt;/a&gt;</ept> (<bpt id="tjiid429-37">&lt;a href="https://lists.eff.org/pipermail/https-everywhere/"&gt;</bpt>arquivo<ept id="tjiid429-37">&lt;/a&gt;</ept>) é para discutir o projeto como um todo; lista de discussão <bpt id="tjiid429-39">&lt;a href="https://lists.eff.org/mailman/listinfo/https-everywhere-rules"&gt;</bpt>https-everywhere-rules<ept id="tjiid429-39">&lt;/a&gt;</ept> (<bpt id="tjiid429-41">&lt;a href="https://lists.eff.org/pipermail/https-everywhere-rules"&gt;</bpt>arquivo<ept id="tjiid429-41">&lt;/a&gt;</ept>) é para discutir o <bpt id="tjiid429-43">&lt;a href="/https-everywhere/rulesets"&gt;</bpt>conjunto de regras<ept id="tjiid429-43">&lt;/a&gt;</ept> e seu conteúdo, incluindo patches e git pull requests. <ept id="tjiid429-32">&lt;/li&gt;</ept><bpt id="tjiid429-46">&lt;li&gt;</bpt><bpt id="tjiid429-47">&lt;b&gt;</bpt> IRC:<ept id="tjiid429-47">&lt;/b&gt;</ept> #https-eeverywhere em irc.oftc.net. Se você fizer uma pergunta, certifique-se de permanecer no canal — alguém pode responder algumas horas ou alguns dias mais tarde.<ept id="tjiid429-46">&lt;/li&gt;</ept><ept id="tjiid429-3">&lt;/ul&gt;</ept><bpt id="tjiid429-51">&lt;p&gt;</bpt><ept id="tjiid429-51">&lt;/p&gt;</ept><bpt id="tjiid429-53">&lt;a name="git"&gt;</bpt><ept id="tjiid429-53">&lt;/a&gt;</ept>
+<bpt id="tjiid429-55">&lt;h2&gt;</bpt>Testando e contribuindo com alterações ao código-fonte<ept id="tjiid429-55">&lt;/h2&gt;</ept>
+<bpt id="tjiid429-57">&lt;p&gt;</bpt>HTTPS Everywhere é parte de um grande número de regras para alternar os sites de HTTP para HTTPS. Você pode ler mais sobre como escrever estas regras <bpt id="tjiid429-58">&lt;a href="/https-everywhere/rulesets"&gt;</bpt>aqui<ept id="tjiid429-58">&lt;/a&gt;</ept>.<ept id="tjiid429-57">&lt;/p&gt;</ept>
+<bpt id="tjiid429-61">&lt;p&gt;</bpt>Se você deseja criar novas regras e submetê-las a nós, esperamos que elas estejam no diretório <bpt id="tjiid429-62">&lt;tt&gt;</bpt>src/chrome/conteúdo/regras.<ept id="tjiid429-62">&lt;/tt&gt;</ept> Esse diretório também contém um script útil, make-trivial-rule, para criar uma regra simples para um determinado domínio. Há também um script chamado trivial-validate.py, para verificar todas as regras pendentes para vários erros e descuidos comuns. Por exemplo, se você quisesse fazer uma regra para o domínio exemplo.com, você pode executar<ept id="tjiid429-61">&lt;/p&gt;</ept>
+<bpt id="tjiid429-65">&lt;p&gt;</bpt><bpt id="tjiid429-66">&lt;code&gt;</bpt>bash ./make-trivial-rule example.com<ept id="tjiid429-66">&lt;/code&gt;</ept><ept id="tjiid429-65">&lt;/p&gt;</ept>
+<bpt id="tjiid429-69">&lt;p&gt;</bpt>dentro do diretório de regras. Isto criaria Exemplo.com.xml, que você então poderia dar uma olhada e editar com base em seu conhecimento de quaisquer URLs específicos em Exemplo.com que funcionam ou não com HTTPS.<ept id="tjiid429-69">&lt;/p&gt;</ept>
+<bpt id="tjiid429-71">&lt;p&gt;</bpt>Antes de enviar sua mudança, você deve testá-la no Firefox ou Chrome, conforme aplicável. Você pode compilar a versão mais recente da extensão e executá-la em um perfil de Firefox standalone usando:<ept id="tjiid429-71">&lt;/p&gt;</ept>
+<bpt id="tjiid429-73">&lt;p&gt;</bpt><bpt id="tjiid429-74">&lt;code&gt;</bpt>    bash ./test.sh --justrun<ept id="tjiid429-74">&lt;/code&gt;</ept><ept id="tjiid429-73">&lt;/p&gt;</ept>
+<bpt id="tjiid429-77">&lt;p&gt;</bpt>Da mesma forma, para compilar e executar em um  perfil standalone do Chrome, execute:<ept id="tjiid429-77">&lt;/p&gt;</ept>
+<bpt id="tjiid429-79">&lt;p&gt;</bpt><bpt id="tjiid429-80">&lt;code&gt;</bpt>    bash ./run-chromium.sh<ept id="tjiid429-80">&lt;/code&gt;</ept><ept id="tjiid429-79">&lt;/p&gt;</ept>
+<bpt id="tjiid429-83">&lt;p&gt;</bpt>Você deve testar exaustivamente as alterações no site alvo: Navegue em na mais ampla variedade de páginas que você puder encontrar. Tente comentar ou autenticar-se, se aplicável. Certifique-se de que tudo ainda funciona corretamente.<ept id="tjiid429-83">&lt;/p&gt;</ept>
+<ept id="tjiid429-85">&lt;/p&gt;</ept>Depois de executar os testes manuais, execute os testes automatizados e os testes de busca:<bpt id="tjiid429-85">&lt;p&gt;</bpt>
+<bpt id="tjiid429-87">&lt;p&gt;</bpt><bpt id="tjiid429-88">&lt;code&gt;</bpt>    bash ./test.sh<ept id="tjiid429-88">&lt;/code&gt;</ept><ept id="tjiid429-87">&lt;/p&gt;</ept>
+<bpt id="tjiid429-91">&lt;p&gt;</bpt><bpt id="tjiid429-92">&lt;code&gt;</bpt>    bash ./fetch-test.sh<ept id="tjiid429-92">&lt;/code&gt;</ept><ept id="tjiid429-91">&lt;/p&gt;</ept>
+<bpt id="tjiid429-95">&lt;p&gt;</bpt>Isto vai pegar alguns dos tipos mais comuns de erros, mas não garante que esteja tudo certo.<ept id="tjiid429-95">&lt;/p&gt;</ept>
+<bpt id="tjiid429-97">&lt;p&gt;</bpt>Depois que você testar as alterações, você pode submetê-las para revisão através de qualquer um dos meios:<ept id="tjiid429-97">&lt;/p&gt;</ept>
+<bpt id="tjiid429-99">&lt;ul&gt;</bpt><bpt id="tjiid429-100">&lt;li&gt;</bpt>Abra um pull request em <bpt id="tjiid429-101">&lt;a href="https://github.com/EFForg/https-everywhere"&gt;</bpt>https://github.com/EFForg/https-everywhere<ept id="tjiid429-101">&lt;/a&gt;</ept>.<ept id="tjiid429-100">&lt;/li&gt;</ept>Email<bpt id="tjiid429-104">&lt;li&gt;</bpt> https-everywhere-rules@eff.org<bpt id="tjiid429-105">&lt;tt&gt;</bpt> e nos conte sobre suas alterações. Você pode usar o seguinte comando para criar um arquivo de patch:
 
- 
-   
-
- 
- 
-
-
-
-   
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
- 
-
-
- 
-
-
-
-</target>
+<bpt id="tjiid429-107">&lt;pre type="_moz"&gt;</bpt>
+git format-patch<ept id="tjiid429-107">&lt;/pre&gt;</ept>
+<ept id="tjiid429-104">&lt;/li&gt;</ept><ept id="tjiid429-99">&lt;/ul&gt;</ept><bpt id="tjiid429-111">&lt;p&gt;</bpt><ept id="tjiid429-111">&lt;/p&gt;</ept><bpt id="tjiid429-113">&lt;a name="git"&gt;</bpt><ept id="tjiid429-113">&lt;/a&gt;</ept>
+<bpt id="tjiid429-115">&lt;h2&gt;</bpt>Um tutorial rápido sobre como trabalhar com Git<ept id="tjiid429-115">&lt;/h2&gt;</ept>
+<bpt id="tjiid429-117">&lt;p&gt;</bpt>Talvez você também queira olhar o <bpt id="tjiid429-118">&lt;a href="http://gitref.org/"&gt;</bpt>referencial do Git<ept id="tjiid429-118">&lt;/a&gt;</ept>, <bpt id="tjiid429-120">&lt;a href="http://help.github.com/"&gt;</bpt>Site de ajuda do GitHub<ept id="tjiid429-120">&lt;/a&gt;</ept> e a <bpt id="tjiid429-122">&lt;a href="https://gitweb.torproject.org/githax.git/blob_plain/HEAD:/doc/Howto.txt"&gt;</bpt>documentação Git do projeto Tor<ept id="tjiid429-122">&lt;/a&gt;</ept> para preencher as lacunas aqui, mas o abaixo deve ser o suficiente para pegar as noções básicas do fluxo de trabalho.<ept id="tjiid429-117">&lt;/p&gt;</ept>
+<bpt id="tjiid429-125">&lt;p&gt;</bpt>Primeiro, diga o seu nome ao git:<ept id="tjiid429-125">&lt;/p&gt;</ept>
+<bpt id="tjiid429-127">&lt;p&gt;</bpt><bpt id="tjiid429-128">&lt;code&gt;</bpt>  git config --global user.name "Seu Nome"   git config --global user.email "you@example.com"<ept id="tjiid429-128">&lt;/code&gt;</ept><ept id="tjiid429-127">&lt;/p&gt;</ept>
+<bpt id="tjiid429-131">&lt;p&gt;</bpt>Em seguida, baixe uma cópia do repositório 'origin':<ept id="tjiid429-131">&lt;/p&gt;</ept>
+<bpt id="tjiid429-133">&lt;p&gt;</bpt><bpt id="tjiid429-134">&lt;code&gt;</bpt>  git clone https://github.com/EFForg/https-everywhere.git<ept id="tjiid429-134">&lt;/code&gt;</ept><ept id="tjiid429-133">&lt;/p&gt;</ept>
+<bpt id="tjiid429-137">&lt;p&gt;</bpt><bpt id="tjiid429-138">&lt;code&gt;</bpt>  cd https-everywhere<ept id="tjiid429-138">&lt;/code&gt;</ept><ept id="tjiid429-137">&lt;/p&gt;</ept>
+<bpt id="tjiid429-141">&lt;p&gt;</bpt>Ou então, se você já tiver uma conta do Github, você pode criar um "fork" do repositório no Github em <bpt id="tjiid429-142">&lt;a href="https://github.com/EFForg/https-everywhere"&gt;</bpt>https://github.com/EFForg/https-everywhere.<ept id="tjiid429-142">&lt;/a&gt;</ept> Consulte<bpt id="tjiid429-144">&lt;a href="https://help.github.com/articles/fork-a-repo"&gt;</bpt> esta página<ept id="tjiid429-144">&lt;/a&gt;</ept> para um tutorial.
+<bpt id="tjiid429-147">&lt;p&gt;</bpt>Quando você tiver uma cópia local do repositório, crie um novo branch para as suas alterações faça check-out:<ept id="tjiid429-147">&lt;/p&gt;</ept>
+<bpt id="tjiid429-149">&lt;p&gt;</bpt><bpt id="tjiid429-150">&lt;code&gt;</bpt>  git checkout -b my-new-rules master<ept id="tjiid429-150">&lt;/code&gt;</ept><ept id="tjiid429-149">&lt;/p&gt;</ept>
+<bpt id="tjiid429-153">&lt;p&gt;</bpt>Quando você quiser nos enviar seu trabalho, você precisará adicionar adicionar quaisquer novos arquivos para o index com git add:<ept id="tjiid429-153">&lt;/p&gt;</ept>
+<bpt id="tjiid429-155">&lt;p&gt;</bpt><bpt id="tjiid429-156">&lt;code&gt;</bpt>  git add ./src/chrome/content/rules/MyRule1.xml<ept id="tjiid429-156">&lt;/code&gt;</ept><ept id="tjiid429-155">&lt;/p&gt;</ept>
+<bpt id="tjiid429-159">&lt;p&gt;</bpt><bpt id="tjiid429-160">&lt;code&gt;</bpt>  git add ./src/chrome/content/rules/MyRule2.xml<ept id="tjiid429-160">&lt;/code&gt;</ept><ept id="tjiid429-159">&lt;/p&gt;</ept>
+<bpt id="tjiid429-163">&lt;p&gt;</bpt>Agora, você pode dar commit nas alterações para o branch local. Para facilitar as coisas, você deveria dar commit individualmente em cada arquivo xml:<ept id="tjiid429-163">&lt;/p&gt;</ept>
+<bpt id="tjiid429-165">&lt;p&gt;</bpt><bpt id="tjiid429-166">&lt;code&gt;</bpt>  git commit ./src/chrome/content/rules/MyRule1.xml<ept id="tjiid429-166">&lt;/code&gt;</ept><ept id="tjiid429-165">&lt;/p&gt;</ept>
+<bpt id="tjiid429-169">&lt;p&gt;</bpt><bpt id="tjiid429-170">&lt;code&gt;</bpt>  git commit ./src/chrome/content/rules/MyRule2.xml<ept id="tjiid429-170">&lt;/code&gt;</ept><ept id="tjiid429-169">&lt;/p&gt;</ept>
+<bpt id="tjiid429-173">&lt;p&gt;</bpt>Agora, você precisa de um lugar para publicar suas alterações. Você pode criar uma conta grátis no github aqui: <bpt id="tjiid429-174">&lt;a href="https://github.com/signup/free" title="https://github.com/signup/free"&gt;</bpt>https://github.com/signup/free<ept id="tjiid429-174">&lt;/a&gt;</ept>. <bpt id="tjiid429-176">&lt;a href="http://help.github.com/" title="http://help.github.com/"&gt;</bpt>http://help.github.com/<ept id="tjiid429-176">&lt;/a&gt;</ept> descreve o processo de criação de conta e outras coisas específicas do github.<ept id="tjiid429-173">&lt;/p&gt;</ept>
+<bpt id="tjiid429-179">&lt;p&gt;</bpt>Depois de ter criado sua conta e adicionado o checkout remoto em seu checkout local, faça um push do seu branch para seu github remoto:<ept id="tjiid429-179">&lt;/p&gt;</ept>
+<bpt id="tjiid429-181">&lt;p&gt;</bpt><bpt id="tjiid429-182">&lt;code&gt;</bpt>  git push github my-new-rules:my-new-rules<ept id="tjiid429-182">&lt;/code&gt;</ept><ept id="tjiid429-181">&lt;/p&gt;</ept>
+<bpt id="tjiid429-185">&lt;p&gt;</bpt>Você deveria, periodicamente, fazer um novo fetch do repositorio master:<ept id="tjiid429-185">&lt;/p&gt;</ept>
+<bpt id="tjiid429-187">&lt;p&gt;</bpt><bpt id="tjiid429-188">&lt;code&gt;</bpt>  git pull master<ept id="tjiid429-188">&lt;/code&gt;</ept><ept id="tjiid429-187">&lt;/p&gt;</ept></target>
      <note>Body</note>
     </trans-unit>
     <trans-unit id="429][title_field][0][value" resname="429][title_field][0][value">
      <source xml:lang="en">HTTPS Everywhere Development</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Desenvolvimento do HTTS Everywhere</target>
      <note>Title</note>
     </trans-unit>
    </group>
@@ -109,62 +109,62 @@ git format-patch<ept id="tjiid429-107">&lt;/pre&gt;</ept>
     <note>HTTPS Everywhere FAQ</note>
     <trans-unit id="430][body][0][value" resname="430][body][0][value">
      <source xml:lang="en"><bpt id="tjiid430-1">&lt;p&gt;</bpt>This page answers frequently-asked questions about EFF's <bpt id="tjiid430-2">&lt;a href="/https-everywhere"&gt;</bpt>HTTPS Everywhere<ept id="tjiid430-2">&lt;/a&gt;</ept> project. If your question isn't answered below, you can try the resources <bpt id="tjiid430-4">&lt;a href="/https-everywhere/development"&gt;</bpt>listed here<ept id="tjiid430-4">&lt;/a&gt;</ept>.<ept id="tjiid430-1">&lt;/p&gt;</ept></source>
-     <target xml:lang="pt-br"> </target>
+     <target xml:lang="pt-br"><bpt id="tjiid430-1">&lt;p&gt;</bpt>Esta página responde a perguntas freqüentes sobre o projeto <bpt id="tjiid430-2">&lt;a href="/https-everywhere"&gt;</bpt>HTTPS Everywhere <ept id="tjiid430-2">&lt;/a&gt;</ept>da EFF. Se sua pergunta não está respondida abaixo, você pode tentar os recursos <bpt id="tjiid430-4">&lt;a href="/https-everywhere/development"&gt;</bpt>listados aqui<ept id="tjiid430-4">&lt;/a&gt;</ept>.<ept id="tjiid430-1">&lt;/p&gt;</ept></target>
      <note>Body</note>
     </trans-unit>
     <trans-unit id="430][field_questions][0][question" resname="430][field_questions][0][question">
      <source xml:lang="en">What if HTTPS Everywhere breaks some site that I use?</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">E se HTTPS Everywhere travar algum site que eu uso?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="430][field_questions][0][answer" resname="430][field_questions][0][answer">
      <source xml:lang="en"><bpt id="tjiid430-1">&lt;p&gt;</bpt><ept id="tjiid430-1">&lt;/p&gt;</ept><bpt id="tjiid430-3">&lt;a name="bugs"&gt;</bpt><ept id="tjiid430-3">&lt;/a&gt;</ept><bpt id="tjiid430-5">&lt;p&gt;</bpt>This is occasionally possible because of inconsistent support for HTTPS on sites (e.g., when a site seems to support HTTPS access but makes a few, unpredictable, parts of the site unavailable in HTTPS). If you <bpt id="tjiid430-6">&lt;a href="https://github.com/EFForg/https-everywhere/issues"&gt;</bpt>report the problem to us<ept id="tjiid430-6">&lt;/a&gt;</ept>, we can try to fix it. In the meantime, you can disable the rule affecting that particular site in your own copy of HTTPS Everywhere by clicking on the HTTPS Everywhere toolbar button and unchecking the rule for that site.<ept id="tjiid430-5">&lt;/p&gt;</ept><bpt id="tjiid430-9">&lt;p&gt;</bpt>You can also report the problem to the site, since they have the power to fix it!<ept id="tjiid430-9">&lt;/p&gt;</ept></source>
-     <target xml:lang="pt-br">  </target>
+     <target xml:lang="pt-br"><bpt id="tjiid430-1">&lt;p&gt;</bpt><ept id="tjiid430-1">&lt;/p&gt;</ept><bpt id="tjiid430-3">&lt;a name="bugs"&gt;</bpt><ept id="tjiid430-3">&lt;/a&gt;</ept><bpt id="tjiid430-5">&lt;p&gt;</bpt>Isto é ocasionalmente possível devido ao suporte inconsistente para HTTPS em sites (por exemplo, quando um site parece ter suporte a acesso HTTPS, mas faz algumas partes imprevisíveis, do site não está disponíveis  em HTTPS). Se você <bpt id="tjiid430-6">&lt;a href="https://github.com/EFForg/https-everywhere/issues"&gt;</bpt>relatar o problema para nós<ept id="tjiid430-6">&lt;/a&gt;</ept>, podemos tentar consertá-lo. Entretanto isso, você pode desativar a regra que afeta aquele determinado site em sua própria cópia de HTTPS Everywhere, clicando no botão de barra de ferramentas do HTTPS Everywhere e desmarcando a regra para esse site.<ept id="tjiid430-5">&lt;/p&gt;</ept><bpt id="tjiid430-9">&lt;p&gt;</bpt> Você também pode relatar o problema para o site, pois eles têm o poder de corrigi-lo!<ept id="tjiid430-9">&lt;/p&gt;</ept></target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="430][field_questions][1][question" resname="430][field_questions][1][question">
      <source xml:lang="en">Why is HTTPS Everywhere preventing me from joining this hotel/school/other wireless network?</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Por que HTTPS Everywhere está me impedindo de entrar na rede sem fio do hotel/escola/outros?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="430][field_questions][1][answer" resname="430][field_questions][1][answer">
      <source xml:lang="en"><bpt id="tjiid430-1">&lt;p&gt;</bpt><ept id="tjiid430-1">&lt;/p&gt;</ept><bpt id="tjiid430-3">&lt;a name="captiveportal"&gt;</bpt><ept id="tjiid430-3">&lt;/a&gt;</ept><bpt id="tjiid430-5">&lt;p&gt;</bpt>Some wireless networks hijack your HTTP connections when you first join them, in order to demand authentication or simply to try to make you agree to terms of use. HTTPS pages are protected against this type of hijacking, which is as it should be. If you go to a website that isn't protected by HTTPS Everywhere (currently, nytimes.com is one such site) that will allow your connection to be captured and redirected to the authentication or terms of use page.<ept id="tjiid430-5">&lt;/p&gt;</ept></source>
-     <target xml:lang="pt-br">  </target>
+     <target xml:lang="pt-br"><bpt id="tjiid430-1">&lt;p&gt;</bpt><ept id="tjiid430-1">&lt;/p&gt;</ept><bpt id="tjiid430-3">&lt;a name="captiveportal"&gt;</bpt><ept id="tjiid430-3">&lt;/a&gt;</ept><bpt id="tjiid430-5">&lt;p&gt;</bpt>Algumas redes sem fio sequestram suas conexões HTTP em seu primeiro acesso, para exigir autenticação ou simplesmente para tentar fazer com que você concorde com os termos de uso. Páginas HTTPS são protegidas contra este tipo de seqüestro, é como deveria ser. Se você for para um site que não é protegido por HTTPS Everywhere (atualmente, nytimes.com é um desses sites) isto permitirá que sua conexão seja capturada e Redirecionada para a autenticação ou termos de uso.<ept id="tjiid430-5">&lt;/p&gt;</ept></target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="430][field_questions][2][question" resname="430][field_questions][2][question">
      <source xml:lang="en">Will there be a version of HTTPS Everywhere for IE, Safari, or some other browser?</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Haverá uma versão do HTTPS Everywhere para o IE, Safari ou algum outro navegador?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="430][field_questions][2][answer" resname="430][field_questions][2][answer">
      <source xml:lang="en"><bpt id="tjiid430-1">&lt;p&gt;</bpt><bpt id="tjiid430-2">&lt;a name="platform"&gt;</bpt><ept id="tjiid430-2">&lt;/a&gt;</ept> As of early 2012, the Safari extension API does not offer a way to perform secure rewriting of http requests to https. But if you happen to know a way to perform secure request rewriting in these browsers, feel free to let us know at <bpt id="tjiid430-4">&lt;tt&gt;</bpt>https-everywhere at EFF.org<ept id="tjiid430-4">&lt;/tt&gt;</ept> (but note that modifying <bpt id="tjiid430-6">&lt;tt&gt;</bpt>document.location<ept id="tjiid430-6">&lt;/tt&gt;</ept> or <bpt id="tjiid430-8">&lt;tt&gt;</bpt>window.location<ept id="tjiid430-8">&lt;/tt&gt;</ept> in JavaScript is not secure).<ept id="tjiid430-1">&lt;/p&gt;</ept></source>
-     <target xml:lang="pt-br"> </target>
+     <target xml:lang="pt-br"><bpt id="tjiid430-1">&lt;p&gt;</bpt><bpt id="tjiid430-2">&lt;a name="platform"&gt;</bpt><ept id="tjiid430-2">&lt;/a&gt;</ept>Até o início de 2012, a API de extensão do Safari  não oferecia nenhuma maneira segura para reescrever solicitações de http para https. Mas se por acaso você souber de uma maneira segura de executar a reescrita de solicitação nesses navegadores, sinta-se livre para nos avisar em <bpt id="tjiid430-4">&lt;tt&gt;</bpt>https-everywhere em EFF.org<ept id="tjiid430-4">&lt;/tt&gt;</ept> (mas note que modificar <bpt id="tjiid430-6">&lt;tt&gt;</bpt>document.location<ept id="tjiid430-6">&lt;/tt&gt;</ept> ou <bpt id="tjiid430-8">&lt;tt&gt;</bpt>window.location<ept id="tjiid430-8">&lt;/tt&gt;</ept> em JavaScript não é seguro).<ept id="tjiid430-1">&lt;/p&gt;</ept></target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="430][field_questions][3][question" resname="430][field_questions][3][question">
      <source xml:lang="en">Why use a whitelist of sites that support HTTPS? Why can't you try to use HTTPS for every last site, and only fall back to HTTP if it isn't available?</source>
-     <target xml:lang="pt-br"> </target>
+     <target xml:lang="pt-br">Por que usar uma lista branca de sites que oferecem suporte a HTTPS? Por que você não pode tentar usar HTTPS para cada site e só usar HTTP se HTTPS não estiver disponível?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="430][field_questions][3][answer" resname="430][field_questions][3][answer">
      <source xml:lang="en"><bpt id="tjiid430-1">&lt;p&gt;</bpt><bpt id="tjiid430-2">&lt;a name="automatic-https"&gt;</bpt><ept id="tjiid430-2">&lt;/a&gt;</ept> There are several problems with the idea of trying to automatically detect HTTPS on every site. There is no guarantee that sites are going to give the same response via HTTPS that they give via HTTP. As of 2015, Forbes is a good example of this problem: compare these <bpt id="tjiid430-4">&lt;a href="http://forbes.com"&gt;</bpt>HTTP<ept id="tjiid430-4">&lt;/a&gt;</ept> and <bpt id="tjiid430-6">&lt;a href="https://forbes.com"&gt;</bpt>HTTPS<ept id="tjiid430-6">&lt;/a&gt;</ept> responses. Also, it's not possible to test for HTTPS in real time without introducing security vulnerabilities (What should the extension do if the HTTPS connection attempt fails? Falling back to insecure HTTP isn't safe). And in some cases, HTTPS Everywhere has to perform quite complicated transformations on URIs — for example until recently the Wikipedia rule had to turn an address like <bpt id="tjiid430-8">&lt;tt&gt;</bpt>http://en.wikipedia.org/wiki/World_Wide_Web<ept id="tjiid430-8">&lt;/tt&gt;</ept> into one like <bpt id="tjiid430-10">&lt;tt&gt;</bpt>https://secure.wikimedia.org/wikipedia/en/wiki/World_Wide_Web<ept id="tjiid430-10">&lt;/tt&gt;</ept> because HTTPS was not available on Wikipedia's usual domains.<ept id="tjiid430-1">&lt;/p&gt;</ept></source>
-     <target xml:lang="pt-br">     </target>
+     <target xml:lang="pt-br"><bpt id="tjiid430-1">&lt;p&gt;</bpt><bpt id="tjiid430-2">&lt;a name="automatic-https"&gt;</bpt><ept id="tjiid430-2">&lt;/a&gt;</ept>Há vários problemas com a ideia de tentar detectar automaticamente HTTPS em todos os sites. Não há nenhuma garantia de que sites vão dar a mesma resposta via HTTPS que dão através de HTTP. A partir de 2015, a Forbes é um bom exemplo deste problema: compare essas respostas <bpt id="tjiid430-4">&lt;a href="http://forbes.com"&gt;</bpt>HTTP<ept id="tjiid430-4">&lt;/a&gt;</ept> e <bpt id="tjiid430-6">&lt;a href="https://forbes.com"&gt;</bpt>HTTPS<ept id="tjiid430-6">&lt;/a&gt;</ept>. Além disso, não é possível testar o HTTPS em tempo real, sem introduzir vulnerabilidades de segurança (o que a extensão deve fazer se a tentativa de conexão HTTPS falhar? Voltar para o HTTP é inseguro). E em alguns casos, HTTPS Everywhere tem que executar transformações bastante complicadas nos URIs — por exemplo, até recentemente a regra da Wikipédia tinha que transformar um endereço como <bpt id="tjiid430-8">&lt;tt&gt;</bpt>http://en.wikipedia.org/wiki/World_Wide_Web<ept id="tjiid430-8">&lt;/tt&gt;</ept> em <bpt id="tjiid430-10">&lt;tt&gt;</bpt>https://secure.wikimedia.org/wikipedia/en/wiki/World_Wide_Web<ept id="tjiid430-10">&lt;/tt&gt;</ept> porque HTTPS não estava disponível nos domínios normais da Wikipédia.<ept id="tjiid430-1">&lt;/p&gt;</ept></target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="430][field_questions][4][question" resname="430][field_questions][4][question">
      <source xml:lang="en">How do I get rid of/move the HTTPS Everywhere button in the toolbar?</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Como me livrar ou mover o botão do HTTPS Everywhere da barra de ferramentas?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="430][field_questions][4][answer" resname="430][field_questions][4][answer">
      <source xml:lang="en"><bpt id="tjiid430-1">&lt;p&gt;</bpt><bpt id="tjiid430-2">&lt;a name="toolbar"&gt;</bpt><ept id="tjiid430-2">&lt;/a&gt;</ept> The HTTPS Everywhere button is useful because it allows you to see, and disable, a ruleset if it happens to be causing problems with a site. But if you'd rather disable it, go to View-&amp;gt;Toolbars-&amp;gt;Customize, and drag the button out of the toolbar into the Addons bar at the bottom of the page. Then you can hide the Addons bar. (In theory you should be able to drag it into the tray of available icons too, but that may trigger <bpt id="tjiid430-4">&lt;a href="https://trac.torproject.org/projects/tor/ticket/6276"&gt;</bpt>this bug<ept id="tjiid430-4">&lt;/a&gt;</ept>.<ept id="tjiid430-1">&lt;/p&gt;</ept></source>
-     <target xml:lang="pt-br">   </target>
+     <target xml:lang="pt-br"><bpt id="tjiid430-1">&lt;p&gt;</bpt><bpt id="tjiid430-2">&lt;a name="toolbar"&gt;</bpt><ept id="tjiid430-2">&lt;/a&gt;</ept>O botão HTTPS Everywhere é útil porque permite que você veja e desabilite, um conjunto de regras, se ele estiver causando problemas em um site. Mas se você preferir desativá-lo, vá em Exibir -&amp;gt; barras de ferramentas -&amp;gt; Personalizar e arraste o botão da barra de ferramentas para a barra na parte inferior da página de Addons. Em seguida, você pode ocultar a barra de Addons. (Em teoria, você deve ser capaz de arrastá-lo para a bandeja de ícones disponíveis também, mas isto pode desencadear <bpt id="tjiid430-4">&lt;a href="https://trac.torproject.org/projects/tor/ticket/6276"&gt;</bpt>este bug<ept id="tjiid430-4">&lt;/a&gt;</ept>.<ept id="tjiid430-1">&lt;/p&gt;</ept></target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="430][field_questions][5][question" resname="430][field_questions][5][question">
      <source xml:lang="en">When does HTTPS Everywhere protect me? When does it not protect me?</source>
-     <target xml:lang="pt-br"> </target>
+     <target xml:lang="pt-br">Quando é o HTTPS Everywhere me protege? Quando ele não me protege?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="430][field_questions][5][answer" resname="430][field_questions][5][answer">
@@ -177,25 +177,25 @@ HTTPS Everywhere depends entirely on the security features of the individual web
 One way to determine what level of protection you're getting when using a particular site is to use a packet-sniffing tool like <bpt id="tjiid430-9">&lt;a href="http://www.wireshark.org/"&gt;</bpt>Wireshark<ept id="tjiid430-9">&lt;/a&gt;</ept> to record your own communications with the site. The resulting view of your communications is about the same as what an eavesdropper on your wifi network or at your ISP would see. This way, you can determine whether some or all of your communications would be protected; however, it may be quite time-consuming to make sense of the Wireshark output with enough care to get a definitive answer.
 
 You can also turn on the "Block all HTTP requests" feature for added protection. Instead of loading insecure pages or images, HTTPS Everywhere will block them outright.</source>
-     <target xml:lang="pt-br">
+     <target xml:lang="pt-br"><bpt id="tjiid430-1">&lt;a name="where"&gt;</bpt><ept id="tjiid430-1">&lt;/a&gt;</ept>
 
-   
+HTTPS Everywhere te protege apenas quando você estiver usando <bpt id="tjiid430-3">&lt;em&gt;</bpt>partes criptografadas de sites suportados<ept id="tjiid430-3">&lt;/em&gt;</ept>. Em um site com suporte, ele será ativará automaticamente criptografia HTTPS para todas as partes com suporte conhecidas do site (para alguns sites, isso pode ser apenas uma parte de todo o site). Por exemplo, se seu provedor de email não suporta HTTPS em nada, HTTPS Everywhere não pode fazer seu acesso ao email seguro. Da mesma forma, se um site permite HTTPS para texto, mas não para imagens, alguém pode ser capaz de ver quais imagens seu navegador carrega e adivinha o que você está acessando.
 
-  
+HTTPS Everywhere depende inteiramente das características de segurança dos sites que você usar; Ele <bpt id="tjiid430-5">&lt;em&gt;</bpt>ativa<ept id="tjiid430-5">&lt;/em&gt;</ept> os recursos de segurança, mas ele não pode <bpt id="tjiid430-7">&lt;em&gt;</bpt>criá-los<ept id="tjiid430-7">&lt;/em&gt;</ept> se eles já não existirem. Se você usar um site não suportado por HTTPS Everywhere ou um site que fornece algumas informações de forma insegura, HTTPS Everywhere não pode fornecer proteção adicional para o uso do site. Por favor, lembre-se de verificar se a segurança de um determinado site está funcionando no nível que você espera antes de enviar ou receber informações confidenciais, incluindo senhas.
 
-  
+Uma maneira de determinar qual o nível de proteção ao se usar um determinado site é usar uma ferramenta de sniffing de pacotes como o <bpt id="tjiid430-9">&lt;a href="http://www.wireshark.org/"&gt;</bpt>Wireshark<ept id="tjiid430-9">&lt;/a&gt;</ept> para gravar suas próprias comunicações com o site. O que você consegue ver das suas comunicações é basicamente a mesma coisa que um intruso em sua rede wifi e seu provedor veriam. Desta forma, você pode determinar se algumas ou todas as suas comunicações estariam protegidas; no entanto, pode ser muito demorado interpretar a saída do Wireshark com  cuidado o bastante para obter uma resposta definitiva.
 
- </target>
+Você também pode ativar o recurso "Bloquear todas as solicitações HTTP" para a proteção adicional. Em vez de carregar imagens ou páginas inseguras, HTTPS Everywhere bloqueará estas requisições.</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="430][field_questions][6][question" resname="430][field_questions][6][question">
      <source xml:lang="en">What does HTTPS Everywhere protect me against?</source>
-     <target xml:lang="pt-br"></target>
+     <target xml:lang="pt-br">Contra o que HTTPS Everywhere me protege?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="430][field_questions][6][answer" resname="430][field_questions][6][answer">
      <source xml:lang="en"><bpt id="tjiid430-1">&lt;p&gt;</bpt><ept id="tjiid430-1">&lt;/p&gt;</ept><bpt id="tjiid430-3">&lt;a name="threats"&gt;</bpt><ept id="tjiid430-3">&lt;/a&gt;</ept><bpt id="tjiid430-5">&lt;p&gt;</bpt>On supported parts of supported sites, HTTPS Everywhere enables the sites' HTTPS protection which can protect you against eavesdropping and tampering with the contents of the site or with the information you send to the site. Ideally, this provides some protection against an attacker learning the content of the information flowing in each direction — for instance, the text of e-mail messages you send or receive through a webmail site, the products you browse or purchase on an e-commerce site, or the particular articles you read on a reference site.<ept id="tjiid430-5">&lt;/p&gt;</ept><bpt id="tjiid430-7">&lt;p&gt;</bpt>However, HTTPS Everywhere <bpt id="tjiid430-8">&lt;strong&gt;</bpt>does not conceal the identities of the sites you access<ept id="tjiid430-8">&lt;/strong&gt;</ept>, the amount of time you spend using them, or the amount of information you upload or download from a particular site. For example, if you access http://www.eff.org/issues/nsa-spying and HTTPS Everywhere rewrites it to https://www.eff.org/issues/nsa-spying, an eavesdropper can still trivially recognize that you are accessing www.eff.org (but might not know which issue you are reading about). In general, the entire hostname part of the URL remains exposed to the eavesdropper because this must be sent repeatedly in unencrypted form while setting up the connection. Another way of saying this is that HTTPS was never designed to conceal the identity of the sites that you visit.<ept id="tjiid430-7">&lt;/p&gt;</ept><bpt id="tjiid430-11">&lt;p&gt;</bpt>Researchers have also shown that it may be possible for someone to figure out more about what you're doing on a site merely through careful observation of the amount of data you upload and download, or the timing patterns of your use of the site. A simple example is that if the site only has one page of a certain total size, anyone downloading exactly that much data from the site is probably accessing that page.<ept id="tjiid430-11">&lt;/p&gt;</ept><bpt id="tjiid430-13">&lt;p&gt;</bpt>If you want to protect yourself against monitoring of the sites you visit, consider using HTTPS Everywhere together with software like <bpt id="tjiid430-14">&lt;a href="https://www.torproject.org/"&gt;</bpt>Tor<ept id="tjiid430-14">&lt;/a&gt;</ept>.<ept id="tjiid430-13">&lt;/p&gt;</ept></source>
-     <target xml:lang="pt-br">     </target>
+     <target xml:lang="pt-br"><bpt id="tjiid430-1">&lt;p&gt;</bpt><ept id="tjiid430-1">&lt;/p&gt;</ept><bpt id="tjiid430-3">&lt;a name="threats"&gt;</bpt><ept id="tjiid430-3">&lt;/a&gt;</ept><bpt id="tjiid430-5">&lt;p&gt;</bpt>Nas partes com suporte dos sites suportados, HTTPS Everywhere permite proteção HTTPS dos sites, que podem protegê-lo contra espionagem e adulteração do conteúdo do site ou das informações que você enviar para o site.     </target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="430][field_questions][7][question" resname="430][field_questions][7][question">
